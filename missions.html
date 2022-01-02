@@ -1,0 +1,14 @@
+---
+layout: default
+title: Missions
+---
+<h1>Missions</h1>
+
+<ul>
+  {% for mission in site.missions %}
+    <li>
+      <h2><a href="{{ mission.url }}">{{ mission.title }}</a></h2>
+      {{ mission.excerpt }}
+    </li>
+  {% endfor %}
+</ul>

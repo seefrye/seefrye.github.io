@@ -1,6 +1,8 @@
 collections:
   authors:
     output: true
+  missions:
+    output: true
 
 defaults:
   - scope:
@@ -17,6 +19,11 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "missions"
+    values:
+      layout: "mission"
       
 plugins:
   - jekyll-feed

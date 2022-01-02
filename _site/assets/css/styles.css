@@ -1,3 +1,19 @@
 .current { color: green; }
 
+body { background-color: #3c3c3c; color: #dadada; }
+
+h1 { font-family: 'Righteous', cursive; font-size: 48pt; font-weight: bold; font-variant: small-caps; }
+
+h2 { font-family: 'Orbitron', sans-serif; font-size: 36pt; font-weight: 900; font-variant: small-caps; }
+
+th { font-family: 'Orbitron', sans-serif; font-size: 14pt; font-weight: 650; }
+
+p, li, td { font-family: 'Didact Gothic', sans-serif; font-size: 12pt; font-weight: medium; }
+
+p.flavor { font-family: 'IM Fell Great Primer', serif; font-size: 12pt; font-weight: 400; font-style: italic; }
+
+table, th, td { border: 1px solid black; }
+
+table { border-collapse: collapse; }
+
 /*# sourceMappingURL=styles.css.map */
